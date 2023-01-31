@@ -15,9 +15,12 @@ body {
     background-color: #1F2937;
 
 }
-.header a {
+a {
     text-decoration: none;
     color: #e5e7eb;
+}
+a:hover {
+    text-decoration: underline;
 }
 ul {
     display: flex;
@@ -127,4 +130,34 @@ ul {
 .quote-content {
     padding: 0;
     margin: 0;
+}
+.section4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px;
+}
+.signup {
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 50px;
+    border-radius: 8px;
+    color:#e5e7eb;
+    width: 750px;
+}
+.getin {
+    font-weight: 900;
+}
+.cta-button {
+    padding: 8px 16px;
+    background-color: #3882f6;
+    border: 3px solid #e5e7eb;
+    color: #e5e7eb;
+    border-radius: 16px;
+
+}
+strong {
+    font-size: 20px;
 }
